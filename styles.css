@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: "Homer Simpson UI";
+}
+
+header {
+    background-color: #a51176;
+    color: rgb(212, 175, 55);
+    text-align: center;
+    font-size: 100%;
+    padding: 0px;
+}
+
+#header-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+nav {
+    background-color: #a51176;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .icon {
+    flex-grow: 1;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 1px 2px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-box {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-description {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    z-index: 2;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

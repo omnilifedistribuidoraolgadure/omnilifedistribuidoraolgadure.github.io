@@ -119,6 +119,6 @@ footer {
     }
 
     .product-box {
-        width: 50%; /* Haz que los productos ocupen el ancho completo en pantallas pequeñas */
+        width: 100%; /* Haz que los productos ocupen el ancho completo en pantallas pequeñas */
     }
 }
